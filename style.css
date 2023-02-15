@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.bg-image {
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Set the background image */
+  background-image: url('https://example.com/my-background-image.jpg');
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-align: center;
+  font-size: 36px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    font-size: 24px;
+  }
+}
